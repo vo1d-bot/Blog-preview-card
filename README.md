@@ -25,7 +25,7 @@ A clean and modern blog preview card component built with HTML and CSS. The desi
 
 ## Links
 
-- Live Site URL: [Vercel](https://)
+- Live Site URL: [Vercel](https://blog-preview-card-sandy-five.vercel.app/)
 - Solution URL: [Github](https://github.com/vo1d-bot/Blog-preview-card.git)
 
 ## Built With
