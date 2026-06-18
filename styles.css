@@ -54,14 +54,14 @@ body {
     background-color: var(--bg-color-yellow);
     padding: 0.4rem 0.8rem;
     border-radius: 0.25rem;
-    font-size: 0.75rem;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.85rem);
     font-weight: var(--font-bolder);
     margin: 0 0 0.75rem 0;
 }
 
 .date {
     font-weight: var(--font-bold);
-    font-size: 0.85rem;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.85rem);
     margin-bottom: 1rem;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .content h1 {
-    font-size: 1.25rem;
+    font-size: clamp(1.2rem, 1.21rem + 0.18vw, 1.3rem);
     font-weight: var(--font-bolder);
     margin-bottom: 0.75rem;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .content p {
-    font-size: .85rem;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.85rem);
     color: var(--font-gray-500);
     margin-bottom: 1.5rem;
 }
@@ -106,6 +106,6 @@ body {
 }
 
 .author span {
-    font-size: .85rem;
+    font-size: clamp(0.75rem, 0.71rem + 0.18vw, 0.85rem);
     font-weight: var(--font-bolder);
 }
