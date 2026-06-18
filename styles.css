@@ -1,0 +1,111 @@
+:root {
+    --bg-color-yellow: hsl(47, 88%, 63%);
+    --bg-color-white: hsl(0, 0%, 100%);
+    --font-gray-500: hsl(0, 0%, 42%);
+    --font-gray-950: hsl(0, 0%, 7%);
+    --default: 16px;
+    --font-bold: 500;
+    --font-bolder: 800;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: var(--default);
+    font-family: "Figtree", sans-serif;
+    color: var(--font-gray-950);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-yellow);
+}
+
+.container {
+    max-width: 320px;
+    padding: 1.3rem;
+    border-radius: 1.3rem;
+    border: 1px solid var(--font-gray-950);
+    box-shadow: 0.5rem 0.5rem 0rem var(--font-gray-950);
+    background-color: var(--bg-color-white);
+}
+
+.meta img {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    height: auto;
+    display: block;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    width: max-content;
+    background-color: var(--bg-color-yellow);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: var(--font-bolder);
+    margin: 0 0 0.75rem 0;
+}
+
+.date {
+    font-weight: var(--font-bold);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.content {
+    margin: 0.75rem 0;
+}
+
+.content h1 {
+    font-size: 1.25rem;
+    font-weight: var(--font-bolder);
+    margin-bottom: 0.75rem;
+}
+
+.article-link {
+    color: inherit;
+    display: block;
+}
+
+.article-link:hover {
+    color: var(--bg-color-yellow);
+}
+
+.article-link:focus {
+    outline: 3px solid var(--bg-color-yellow);
+}
+
+.content p {
+    font-size: .85rem;
+    color: var(--font-gray-500);
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 1rem;
+}
+
+.author img {
+    max-width: 32px;
+}
+
+.author span {
+    font-size: .85rem;
+    font-weight: var(--font-bolder);
+}
