@@ -84,7 +84,7 @@ body {
     color: var(--bg-color-yellow);
 }
 
-.article-link:focus {
+.article-link:focus-visible {
     outline: 3px solid var(--bg-color-yellow);
 }
 
