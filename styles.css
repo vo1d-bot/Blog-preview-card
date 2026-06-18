@@ -41,7 +41,7 @@ body {
 
 .meta img {
     width: 100%;
-    min-height: 200px;
+    min-height: 12.5rem;
     object-fit: cover;
     height: auto;
     display: block;
